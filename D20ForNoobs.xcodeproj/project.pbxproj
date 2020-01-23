@@ -13,6 +13,10 @@
 		EE498A7023D78AD40030E22C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE498A6E23D78AD40030E22C /* Main.storyboard */; };
 		EE498A7223D78AD70030E22C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE498A7123D78AD70030E22C /* Assets.xcassets */; };
 		EE498A7523D78AD70030E22C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE498A7323D78AD70030E22C /* LaunchScreen.storyboard */; };
+		EEB55EFA23DA30F200E674F1 /* rolldice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEB55EF623DA30F200E674F1 /* rolldice.mp3 */; };
+		EEB55EFB23DA30F200E674F1 /* zfanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEB55EF723DA30F200E674F1 /* zfanfare.mp3 */; };
+		EEB55EFC23DA30F200E674F1 /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEB55EF823DA30F200E674F1 /* torpedo.mp3 */; };
+		EEB55EFD23DA30F200E674F1 /* failwah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEB55EF923DA30F200E674F1 /* failwah.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EE498A7123D78AD70030E22C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE498A7423D78AD70030E22C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE498A7623D78AD70030E22C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB55EF623DA30F200E674F1 /* rolldice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rolldice.mp3; sourceTree = "<group>"; };
+		EEB55EF723DA30F200E674F1 /* zfanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zfanfare.mp3; sourceTree = "<group>"; };
+		EEB55EF823DA30F200E674F1 /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
+		EEB55EF923DA30F200E674F1 /* failwah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = failwah.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		EE498A6723D78AD40030E22C /* D20ForNoobs */ = {
 			isa = PBXGroup;
 			children = (
+				EEB55EF523DA30A200E674F1 /* soundfikes */,
 				EE498A6823D78AD40030E22C /* AppDelegate.swift */,
 				EE498A6A23D78AD40030E22C /* SceneDelegate.swift */,
 				EE498A6C23D78AD40030E22C /* ViewController.swift */,
@@ -65,6 +74,17 @@
 				EE498A7623D78AD70030E22C /* Info.plist */,
 			);
 			path = D20ForNoobs;
+			sourceTree = "<group>";
+		};
+		EEB55EF523DA30A200E674F1 /* soundfikes */ = {
+			isa = PBXGroup;
+			children = (
+				EEB55EF923DA30F200E674F1 /* failwah.mp3 */,
+				EEB55EF623DA30F200E674F1 /* rolldice.mp3 */,
+				EEB55EF823DA30F200E674F1 /* torpedo.mp3 */,
+				EEB55EF723DA30F200E674F1 /* zfanfare.mp3 */,
+			);
+			path = soundfikes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +145,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB55EFA23DA30F200E674F1 /* rolldice.mp3 in Resources */,
+				EEB55EFB23DA30F200E674F1 /* zfanfare.mp3 in Resources */,
 				EE498A7523D78AD70030E22C /* LaunchScreen.storyboard in Resources */,
+				EEB55EFD23DA30F200E674F1 /* failwah.mp3 in Resources */,
 				EE498A7223D78AD70030E22C /* Assets.xcassets in Resources */,
+				EEB55EFC23DA30F200E674F1 /* torpedo.mp3 in Resources */,
 				EE498A7023D78AD40030E22C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

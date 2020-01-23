@@ -33,19 +33,28 @@
                                     <action selector="rollDiceFromButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="km9-Nd-gZZ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Critical hit!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oh2-hP-jZ3">
+                                <rect key="frame" x="86.5" y="757.5" width="241" height="54.5"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Oh2-hP-jZ3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6nT-z8-8m7"/>
                             <constraint firstItem="Kf3-UX-5Hk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jef-JJ-Yw6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Kf3-UX-5Hk" secondAttribute="bottom" constant="20" id="NoR-6E-FWb"/>
                             <constraint firstItem="Kf3-UX-5Hk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WZy-WP-IXO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kf3-UX-5Hk" secondAttribute="trailing" constant="20" id="Xw2-YL-oTo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Oh2-hP-jZ3" secondAttribute="bottom" constant="50" id="cLG-07-kRF"/>
                             <constraint firstItem="Kf3-UX-5Hk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="s5I-Td-iRk"/>
                             <constraint firstItem="Kf3-UX-5Hk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="tgz-fi-eIw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="criticalLabel" destination="Oh2-hP-jZ3" id="5yP-Ef-uim"/>
                         <outlet property="diceImageView" destination="Kf3-UX-5Hk" id="vr1-ny-MPe"/>
                     </connections>
                 </viewController>
