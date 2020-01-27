@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     var rollySounds: AVAudioPlayer?
     var failSounds: AVAudioPlayer?
     var winnySounds: AVAudioPlayer?
+    var totalRolled = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,6 +59,8 @@ class ViewController: UIViewController {
         
         let imageName = "d\(rolledNumber)"
         
+        totalRolled += 1
+        
         diceImageView.image = UIImage(named: imageName)
         
         rollySounds?.play()
@@ -75,6 +78,7 @@ class ViewController: UIViewController {
         else {
             criticalLabel.isHidden = true
         }
+        
     }
     
     override func motionEnded (_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
@@ -84,6 +88,7 @@ class ViewController: UIViewController {
     @IBAction func rollDiceFromButton() {
         rollDice()
     }
-    
+
+
 }
 

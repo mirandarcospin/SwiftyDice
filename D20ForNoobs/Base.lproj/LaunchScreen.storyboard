@@ -18,8 +18,8 @@
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="5hx-S0-6Da">
                                 <rect key="frame" x="167" y="405" width="81" height="87"/>
                             </activityIndicatorView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="ROLLING..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKH-UF-cuP">
-                                <rect key="frame" x="46" y="268" width="322" height="101"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ROLLING..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKH-UF-cuP">
+                                <rect key="frame" x="72.5" y="344" width="268.5" height="76.5"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="70"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -28,7 +28,10 @@
                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="5hx-S0-6Da" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Gog-Qb-JF9"/>
+                            <constraint firstItem="PKH-UF-cuP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="300" id="S55-Hv-bjn"/>
+                            <constraint firstItem="PKH-UF-cuP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="300" id="XIW-ka-2Wd"/>
                             <constraint firstItem="5hx-S0-6Da" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ekU-qO-YSq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PKH-UF-cuP" secondAttribute="bottom" constant="441.5" id="lRS-Oa-KJd"/>
                             <constraint firstItem="PKH-UF-cuP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pE7-Fr-xCq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
